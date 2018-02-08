@@ -1,0 +1,39 @@
+{
+  "name": "npm-dependency-checker",
+  "version": "1.0.0",
+  "description": "Checks npm dependencies that are unused or un-installed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ndc": "./bin/ndc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/practo/npm-dependency-checker.git"
+  },
+  "keywords": [
+    "npm",
+    "dependency",
+    "dependency",
+    "check"
+  ],
+  "author": "shoaib.kalsekar@practo.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/practo/npm-dependency-checker/issues"
+  },
+  "homepage": "https://github.com/practo/npm-dependency-checker#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "cli-spinner": "^0.2.7",
+    "depcheck": "^0.6.8",
+    "get-installed-path": "^4.0.8",
+    "js-yaml": "^3.10.0",
+    "ora": "^1.4.0",
+    "strip-json-comments": "^2.0.1",
+    "superagent": "^3.8.2",
+    "yargs": "^11.0.0"
+  }
+}
