@@ -11,10 +11,12 @@ npm i --g npm-dependency-checker
 
 ### Usage
 
-Run this command in the application root folder, where package.json is
+Run this command
 ```
-ndc
+ndc <application_root_path>
 ```
+
+The `application_root_path` is a mandatory argument. It should be the same path where `package.json` is. ndc supports relative paths as well, e.g., `ndc .` to run ndc in current folder.
 
 ### Configuration
 This package is based on another pacakge [depcheck](https://www.npmjs.com/package/depcheck), and supports all configuration that depcheck supports. The json configuration needs to be present in a file named `.ndcrc` in the application root.
@@ -37,5 +39,5 @@ before_install:
 
 install:
   - ...
-  - ndc
+  - ndc .
 ```

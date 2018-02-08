@@ -1,0 +1,5 @@
+{
+  ignoreMatches: [ // ignore dependencies that matches these globs
+    "npm-dependency-checker"
+  ]
+}
